@@ -2,7 +2,7 @@
 #include <opencv2/highgui/highgui.hpp>
 #include <iostream>
 
-int main(int argc, char **argv) {
+int main(int argc, char** argv) {
 
     if (argc != 2) {
         std::cout << "Usage: display_image ImageToLoadAndDisplay" << std::endl;
